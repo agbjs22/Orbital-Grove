@@ -1,0 +1,131 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	EFO	NCIT	OBI	MESH	RBO
+Term Source File			http://data.bioontology.org/ontologies/OBI		
+Term Source Version			29		
+Term Source Description			Ontology for Biomedical Investigations		
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	OSD-267
+Study Title	Microbiological and nutritional analysis of lettuce crops grown on the International Space Station-VEG01A
+Study Description	The ability to grow safe, fresh food to supplement packaged foods of astronauts in space has been an important goal for NASA. Food crops grown in space experience different environmental conditions than plants grown on Earth (e.g., reduced gravity, elevated radiation levels). To study the effects of space conditions, red romaine lettuce, Lactuca sativa cv ‘Outredgeous,’ plants were grown in Veggie plant growth chambers on the International Space Station (ISS) and compared with ground-grown plants. Multiple plantings were grown on ISS and harvested using either a single, final harvest, or sequential harvests in which several mature leaves were removed from the plants at weekly intervals. Ground controls were grown simultaneously with a 24–72 h delay using ISS environmental data. Food safety of the plants was determined by heterotrophic plate counts for bacteria and fungi, as well as isolate identification using samples taken from the leaves and roots. Molecular characterization was conducted using Next Generation Sequencing (NGS) to provide taxonomic composition and phylogenetic structure of the community. Leaves were also analyzed for elemental composition, as well as levels of phenolics, anthocyanins, and Oxygen Radical Absorbance Capacity (ORAC). Comparison of flight and ground tissues showed some differences in total counts for bacteria and yeast/molds (2.14 – 4.86 log10 CFU/g), while screening for select human pathogens yielded negative results. Bacterial and fungal isolate identification and community characterization indicated variation in the diversity of genera between leaf and root tissue with diversity being higher in root tissue, and included differences in the dominant genera. The only difference between ground and flight experiments was seen in the third experiment, VEG-03A, with significant differences in the genera from leaf tissue. Flight and ground tissue showed differences in Fe, K, Na, P, S, and Zn content and total phenolic levels, but no differences in anthocyanin and ORAC levels. This study indicated that leafy vegetable crops can produce safe, edible, fresh food to supplement to the astronauts’ diet, and provide baseline data for continual operation of the Veggie plant growth units on ISS.
+Study Submission Date	22-Jan-2020
+Study Public Release Date	21-Feb-2020
+Study File Name	s_OSD-267.txt
+Comment[Acknowledgments]	Astronauts Steve Swanson, Scott Kelly, Kjell Lindgren and Shane Kimbrough. Veg and Veggie members especially JC Carver, Chuck Spern, Nicole Dufour. Science team members Bob Morrow, Gerard Newsham.
+Comment[DOI]	10.26030/0cpc-g985
+Comment[Data Source Accession]	
+Comment[Data Source Link]	
+Comment[Experiment Platform]	Vegetable Production System (Veggie)
+Comment[Flight Program]	International Space Station (ISS)
+Comment[Funding]	Funding was provided by NASA's Space Life and Physical Sciences (SLPS) Space Biology Program
+Comment[Identifiers]	
+Comment[Managing NASA Center]	Kennedy Space Center (KSC)
+Comment[Mission End]	05/18/2014
+Comment[Mission Link]	
+Comment[Mission Name]	SpaceX-3
+Comment[Mission Start]	04/18/2014
+Comment[Project Identifier]	VEG-01A
+Comment[Project Link]	https://nlsp.nasa.gov/view/lsdapub/lsda_experiment/74fda291-d339-57ab-914a-77afaa942897
+Comment[Project Title]	Veggie Hardware Validation Test (VEG-01)
+Comment[Project Type]	Spaceflight Study
+Comment[Space Program]	NASA
+Comment[Study Grant Number]	
+STUDY DESIGN DESCRIPTORS
+Study Design Type	Microbiota	low Earth orbit
+Study Design Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D064307	http://purl.obolibrary.org/obo/RBO_00000019
+Study Design Type Term Source REF	MESH	RBO
+STUDY PUBLICATIONS
+Study PubMed ID	32210992
+Study Publication DOI	10.3389/fpls.2020.00199
+Study Publication Author List	Khodadad Christina L. M., Hummerick Mary E., Spencer LaShelle E., Dixit Anirudha R., Richards Jeffrey T., Romeyn Matthew W., Smith Trent M., Wheeler Raymond M., Massa Gioia D.
+Study Publication Title	Microbiological and Nutritional Analysis of Lettuce Crops Grown on the International Space Station
+Study Publication Status	published
+Study Publication Status Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001796
+Study Publication Status Term Source REF	EFO
+Comment[Study Publication Link]	https://www.frontiersin.org/article/10.3389/fpls.2020.00199/full
+STUDY FACTORS
+Study Factor Name	Spaceflight	Organism Part
+Study Factor Type	Space Flight	Organism Part
+Study Factor Type Term Accession Number	http://purl.bioontology.org/ontology/MESH/D013026	http://www.ebi.ac.uk/efo/EFO_0000635
+Study Factor Type Term Source REF	MESH	EFO
+STUDY ASSAYS
+Study Assay File Name	a_OSD-267_amplicon-sequencing_its_illumina.txt	a_OSD-267_amplicon-sequencing_16s_illumina.txt
+Study Assay Measurement Type	Amplicon Sequencing	Amplicon Sequencing
+Study Assay Measurement Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0003747	http://www.ebi.ac.uk/efo/EFO_0003747
+Study Assay Measurement Type Term Source REF	EFO	EFO
+Study Assay Technology Type	ITS	16S
+Study Assay Technology Type Term Accession Number	http://purl.bioontology.org/ontology/LNC/MTHU060380	http://purl.bioontology.org/ontology/MESH/D012336
+Study Assay Technology Type Term Source REF		
+Study Assay Technology Platform	Illumina	Illumina
+STUDY PROTOCOLS
+Study Protocol Name	growth protocol	sample collection	Nucleic Acid Extraction 1	Library Construction	Nucleic Acid Sequencing	GeneLab raw data processing protocol	GeneLab Amplicon-seq data processing protocol - ITS	Library Construction 1	Nucleic Acid Sequencing 1	GeneLab amplicon-seq data processing protocol - 16S
+Study Protocol Type	growth protocol	sample collection	Nucleic Acid Extraction	Library Construction	Nucleic Acid Sequencing	data transformation	data transformation	Library Construction	Nucleic Acid Sequencing	data transformation
+Study Protocol Type Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0003789					http://purl.obolibrary.org/obo/OBI_0200000	http://purl.obolibrary.org/obo/OBI_0200000			http://purl.obolibrary.org/obo/OBI_0200000
+Study Protocol Type Term Source REF	EFO	EFO	EFO	EFO	EFO	OBI	OBI	OBI	OBI	OBI
+Study Protocol Description	Plants were grown in Veggie pillows containing solid, porous, arcillite (calcined clay) substrate in two different blends, Blend 1: 100% sized to 600 u1 mm or Blend 2: a 1:1 ratio of that size to 1–2 mm (Turface Proleague, Profile Products, LLC) and controlled release fertilizer (Nutricote 18-6-8, type 180, Florikan, Sarasota, FL, United States). Procedures for detailed substrate and pillow preparation are outlined in Massa et al. (2017b). Two surface sanitized seeds were attached with guar in each plant pillow between paired germination wicks. All plant rooting pillows with attached seeds were kept dry in heat sealed, gas-impermeable Tedlar bags until test initiation on the ISS. Seeds for three separate, independent plantings (biological replicates) were germinated and grown for 33–56 days on ISS and ground controls were run in controlled environment chambers under ISS environmental conditions with a 24 h delay for VEG-01A and B and a 72 h delay for VEG-03A. Each experiment began with six rooting pillows. Germinated seeds were thinned to one plant per pillow at day 7. Each independent planting was grown at different times aboard ISS with parallel ground experiments for comparison. VEG-01A was grown from May 8 to June 10, 2014; VEG-01B was grown from July 8 to August 10, 2015, and VEG-03A was grown from October 25 to December 28, 2016. VEG-01A and B were harvested after 33 days of growth using sanitized scissors to remove the leaves (Table 1). VEG-03A leaves were harvested sequentially starting at 33 days followed by 3 weekly harvests. Harvested leaves from each plant were wrapped in foil and placed into a −80°C freezer. The first, third, and half of the fourth harvests were consumed by the crew. Only the 2nd harvest and the remaining leaves (approximately half of the total leaves) of the final harvest from VEG-03A were stored for sample return. After completion of the final harvest for all three plantings, two rooting pillows from each independent experiment were removed from Veggie hardware and placed into bags and frozen at −80°C. Ground control samples were processed and stored the same as flight samples. The Veggie baseplate was positioned 30.5–31.75 cm below the LED light array to provide approximately 200 micromole per square meter per second of photosynthetically active radiation at the surface of the pillows in the center of the Veggie unit at a ratio of 12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm). A photoperiod was set to 16 h light/8 h dark. Both the VEG-01A and part of the VEG-03A experiment on ISS had data collected inside the Veggie chamber using a temperature and relative humidity data logger.	At the completion of the VEG-01A experiments plants were harvested. Plant leaves were wrapped in aluminum foil and placed in -80C (MELFI) until return. Two plant pillows with root material from each experiment were also frozen at -80C until return. Parallel ground experiments were handled and sampled identical to flight with a 24 hour delay.	Temperature was maintained during the return of tissues to Kennedy Space Center, where they were also maintained at -80C until processing. Plant leaf material was processed immediately upon thawing and pillows containing roots were thawed at 4 - 8C overnight before sampling was completed. All leaf material was divided for chemical, microbiological and molecular analysis. DNA was extracted from plant leaf and root material of the Veggie pillows using the Microbial Cell DNA Isolation Kit (Qiagen, Inc, Carlsbad, CA) then quantified using the Qubit 2.0 double stranded DNA assays (Invitrogen, Grand Island, NY).	The Internal Transcribed Spacer (ITS) region was selected as a phylogenetic marker to identify fungi taxonomically to the species level. A dual indexing system for multiplexing was adapted for these communities and polymerase chain reaction (PCR) was optimized for reagent concentrations and volume. Each community was labeled with two barcoded primers for identification at completion of sequencing. Amplicons were created in triplicate using 1 ng of template DNA in each reaction. After PCR all amplicons were purified using the Min-Elute System (Qiagen, Carlsbad, CA) and quantified with the Qubit 2.0 high sensitivity ds DNA assay (Invitrogen, Grand Island, NY). The purified amplicons were then pooled in an equimolar concentration to create the library following Illumina protocols.	The sample library was combined with a 10 % Phi-X control library to create diversity and sequenced on the Illumina MiSeq using a V2 500-cycle kit (Illumina, Inc, San Diego, CA).	Quality assessment of raw reads was performed with FastQC v0.12.1 and reports were combined with MultiQC v1.27.1.	"Data were processed as described in GL-DPPD-7104-C (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Amplicon/Illumina/Pipeline_GL-DPPD-7104_Versions/GL-DPPD-7104-C.md), using workflow NF_AmpIllumina v1.0.4 (https://github.com/nasa/GeneLab_AmpliconSeq_Workflow/blob/v1.0.4/README.md).
+
+Quality control: Primers were removed from raw reads using cutadapt v5.0. Quality assessment of trimmed reads was performed with FastQC v0.12.1 and reports were summarized with MultiQC v1.27.1.
+
+ASV table generation and taxonomy assignment: DADA2 v1.34.0 was utilized for quality trimming, filtering, and inference of amplicon sequence variants (ASVs) with the following parameters: truncLen: c(180, 180), maxEE: c(3, 3), and truncQ: 2. Taxonomy assignment of the ASVs was performed with DECIPHER v3.2.0 against the UNITE v2024 reference database. Sample-wise and group-wise relative abundance was calculated and plotted for each taxon level.
+
+Diversity analysis: For alpha (within samples) and beta (between samples) analyses, the ASV count table generated by DADA2 were normalized using two different methods: variance stabilizing transformation (VST) with DESeq2 v1.46.0 and rarefaction to even depth with phyloseq v1.50.0. For normalization using rarefaction, samples were rarefied to even depth at 1631 sequences per sample. To estimate alpha-diversity, the total number of observed features, Chao1, Simpson, and Shannon’s diversity index (H′) and rarefaction curves were calculated using vegan v2.6.10. For beta diversity, Bray-Curtis and Euclidean distance matrices were generated using vegan v2.6.10 on the rarefied and VST normalized ASV tables, respectively.
+
+Statistical analysis: Statistical analyses and graphical displays were conducted and generated using R v4.4.2 and ggplot2 v3.5.1. Alpha diversity: The non-parametric Wilcoxon rank-sum or Dunn test was used to detect significant differences between two or multiple groups, respectively. Beta diversity: Principal co-ordinate analysis (PCoA) was performed on both Bray Curtis and Euclidean distances between samples. The principal co-ordinates were visualized as scatter plots and distances were visualized as dendrograms using ggplot2. The non-parametric permutational multivariate analysis of variance (PERMANOVA) was used to determine the overall changes in microbial communities between samples and group clustering with 999 permutations based on both distance matrices using the adonis2() function in vegan package v2.6.10.
+
+Differential abundance testing: Differential abundance testing was performed using three different methods: ANCOM-BC v2.8.0, ANCOM-BC2 v2.8.0 and DESeq2 v1.46.0. ANCOM-BC was run once for each pair-wise group comparison using a Z-test to generate p-values derived from the W statistic in a log-linear regression model with bias correction. ANCOM-BC2 utilized a pairwise directional test to perform pair-wise group comparisons. DESeq2 was used to perform pair-wise group comparisons using the Wald test with a negative binomial generalized linear model. FDR was used to adjust for multiple comparisons testing and to generate an adjusted p-value in all 3 methods. To visualize group-wise differences, volcano plots were generated for each pair-wise comparison for each differential abundance method. Only ASVs with an adjusted p-value less than or equal to 0.1 were considered significant."	The variable 4 region of the 16S ribosomal RNA gene (rRNA) was selected as a phylogenetic markers to identify microorganisms taxonomically to the species level. A dual indexing system for multiplexing was adapted for these communities and polymerase chain reaction (PCR) was optimized for reagent concentrations and volume. Each community was labeled with two barcoded primers for identification at completion of sequencing. Amplicons were created in triplicate using 1 ng of template DNA in each reaction. After PCR all amplicons were purified using the Min-Elute System (Qiagen, Carlsbad, CA) and quantified with the Qubit 2.0 high sensitivity ds DNA assay (Invitrogen, Grand Island, NY). The purified amplicons were then pooled in an equimolar concentration to create the library following Illumina protocols.	The sample library was combined with a 10 % Phi-X control library to create diversity and sequenced on the Illumina MiSeq using a V2 500-cycle kit (Illumina, Inc, San Diego, CA).	"Data were processed as described in GL-DPPD-7104-C (https://github.com/nasa/GeneLab_Data_Processing/blob/master/Amplicon/Illumina/Pipeline_GL-DPPD-7104_Versions/GL-DPPD-7104-C.md), using workflow NF_AmpIllumina v1.0.4 (https://github.com/nasa/GeneLab_AmpliconSeq_Workflow/blob/v1.0.4/README.md).
+
+Quality control: Primers were removed from raw reads using cutadapt v5.0. Quality assessment of trimmed reads was performed with FastQC v0.12.1 and reports were summarized with MultiQC v1.27.1.
+
+ASV table generation and taxonomy assignment: DADA2 v1.34.0 was utilized for quality trimming, filtering, and inference of amplicon sequence variants (ASVs) with the following parameters: truncLen: c(0, 0), maxEE: c(2, 2), and truncQ: 2. Taxonomy assignment of the ASVs was performed with DECIPHER v3.2.0 against the SILVA r138_2 reference database. Sample-wise and group-wise relative abundance was calculated and plotted for each taxon level.
+
+Diversity analysis: For alpha (within samples) and beta (between samples) analyses, the ASV count table generated by DADA2 were normalized using two different methods: variance stabilizing transformation (VST) with DESeq2 v1.46.0 and rarefaction to even depth with phyloseq v1.50.0. For normalization using rarefaction, samples were rarefied to even depth at 642 sequences per sample. To estimate alpha-diversity, the total number of observed features, Chao1, Simpson, and Shannon’s diversity index (H′) and rarefaction curves were calculated using vegan v2.6.10. For beta diversity, Bray-Curtis and Euclidean distance matrices were generated using vegan v2.6.10 on the rarefied and VST normalized ASV tables, respectively.
+
+Statistical analysis: Statistical analyses and graphical displays were conducted and generated using R v4.4.2 and ggplot2 v3.5.1. Alpha diversity: The non-parametric Wilcoxon rank-sum or Dunn test was used to detect significant differences between two or multiple groups, respectively. Beta diversity: Principal co-ordinate analysis (PCoA) was performed on both Bray Curtis and Euclidean distances between samples. The principal co-ordinates were visualized as scatter plots and distances were visualized as dendrograms using ggplot2. The non-parametric permutational multivariate analysis of variance (PERMANOVA) was used to determine the overall changes in microbial communities between samples and group clustering with 999 permutations based on both distance matrices using the adonis2() function in vegan package v2.6.10.
+
+Differential abundance testing: Differential abundance testing was performed using three different methods: ANCOM-BC v2.8.0, ANCOM-BC2 v2.8.0 and DESeq2 v1.46.0. ANCOM-BC was run once for each pair-wise group comparison using a Z-test to generate p-values derived from the W statistic in a log-linear regression model with bias correction. ANCOM-BC2 utilized a pairwise directional test to perform pair-wise group comparisons. DESeq2 was used to perform pair-wise group comparisons using the Wald test with a negative binomial generalized linear model. FDR was used to adjust for multiple comparisons testing and to generate an adjusted p-value in all 3 methods. To visualize group-wise differences, volcano plots were generated for each pair-wise comparison for each differential abundance method. Only ASVs with an adjusted p-value less than or equal to 0.1 were considered significant."
+Study Protocol URI										
+Study Protocol Version										
+Study Protocol Parameters Name	growth environment;Mean Growth Temperature;light source;light cycle;Light Intensity;Light Color;Growth Medium;Hardware;container	Sample Storage Temperature;Age at sample harvest	QA Instrument;QA Assay;Extract Name	Primer Info;Library Layout;library strategy;Fragment Size;library selection	Sequencing Instrument;Read Length	Read Depth;MultiQC File Names	trimmed sequence data;Filtered Sequence Data;Taxonomy and ASV Counts Data;Alpha Diversity Data;Beta Diversity Data;Beta Diversity Data/Bray-Curtis;Beta Diversity Data/Euclidean_distance;Taxonomy Plots;Differential Abundance;Differential Abundance/ANCOMBC1;Differential Abundance/ANCOMBC2;Differential Abundance/DESeq2;Filtered Sequence Data/MultiQC Reports	Primer Info;Library Layout;library strategy;library selection	Sequencing Instrument;Fragment Size;Read Length	trimmed sequence data;Filtered Sequence Data;Taxonomy and ASV Counts Data;Alpha Diversity Data;Beta Diversity Data;Beta Diversity Data/Bray-Curtis;Beta Diversity Data/Euclidean_distance;Taxonomy Plots;Differential Abundance;Differential Abundance/ANCOMBC1;Differential Abundance/ANCOMBC2;Differential Abundance/DESeq2;Filtered Sequence Data/MultiQC Reports
+Study Protocol Parameters Name Term Accession Number	http://purl.obolibrary.org/obo/OBI_0000997;https://osdr.nasa.gov/;http://purl.obolibrary.org/obo/OBI_0400065;http://purl.obolibrary.org/obo/NCIT_C90419;https://osdr.nasa.gov/;https://osdr.nasa.gov/;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;https://osdr.nasa.gov/;http://purl.obolibrary.org/obo/OBI_0000967	https://genelab-data.ndc.nasa.gov/;https://osdr.nasa.gov/	https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/	;;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/	;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;https://osdr.nasa.gov/	http://purl.obolibrary.org/obo/OBI_0002569;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/	;;https://osdr.nasa.gov/;https://osdr.nasa.gov/	;https://osdr.nasa.gov/;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl	http://purl.obolibrary.org/obo/OBI_0002569;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/;https://osdr.nasa.gov/
+Study Protocol Parameters Name Term Source REF	OBI;;OBI;NCIT;;;NCIT;;OBI	;	;;	;;;;	;NCIT	NCIT;	OBI;;;;;;;;;;;;	;;;	;;NCIT	OBI;;;;;;;;;;;;
+Study Protocol Components Name										
+Study Protocol Components Type										
+Study Protocol Components Type Term Accession Number										
+Study Protocol Components Type Term Source REF										
+STUDY CONTACTS
+Study Person Last Name	Khodadad	Massa	Wheeler	Hummerick	Spencer	Dixit	Richards	Romeyn	Smith
+Study Person First Name	Christina	Gioia	Raymond	Mary	LaShelle	Anirudha	Jeffrey	Matthew	Trent
+Study Person Mid Initials	L.M.	D	M	E	E	R	T	W	M
+Study Person Email	christina.l.khodadad-1@nasa.gov								
+Study Person Phone	(321) 861-2944								
+Study Person Fax									
+Study Person Address	LASSO - 008, Kennedy Space Center, FL 32899			Kennedy Space Center, Merritt Island, FL, United States	Kennedy Space Center, Merritt Island, FL, United States	Kennedy Space Center, Merritt Island, FL, United States	Kennedy Space Center, Merritt Island, FL, United States	Kennedy Space Center, Merritt Island, FL, United States	Kennedy Space Center, Merritt Island, FL, United States
+Study Person Affiliation	Kennedy Space Center	Kennedy Space Center	Kennedy Space Center	AECOM Management Services, Inc., LASSO	AECOM Management Services, Inc., LASSO	AECOM Management Services, Inc., LASSO	AECOM Management Services, Inc., LASSO	NASA UB	NASA UB
+Study Person Roles	Submitter	Author	Author	Author	Author	Author	Author	Author	Author
+Study Person Roles Term Accession Number	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl	http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl
+Study Person Roles Term Source REF	NCIT	NCIT	NCIT	NCIT	NCIT	NCIT	NCIT	NCIT	NCIT

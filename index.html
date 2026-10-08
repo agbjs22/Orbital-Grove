@@ -1,0 +1,60 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07151a" />
+    <title>Orbital Grove — Microgravity Simulator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <header class="topbar">
+      <a class="brand" href="#"><span class="brand-mark">✦</span><span>ORBITAL<br />GROVE</span></a>
+      <div class="mission"><span class="live-dot"></span> BIOLOGICAL SYSTEMS / SIMULATION 04</div>
+      <div class="top-actions"><button class="text-button" id="permissionsButton">Access controls</button><button class="avatar" aria-label="Current role">AR</button></div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div><p class="eyebrow">ISS-GRADE GROWTH STUDY</p><h1>Grow food where<br /><em>gravity lets go.</em></h1></div>
+        <p class="hero-copy">Model root architecture, nutrient exposure, and expected biomass across orbital and planetary environments.</p>
+      </section>
+
+      <section class="workspace">
+        <aside class="control-card panel">
+          <div class="panel-label"><span>01</span> EXPERIMENT PARAMETERS</div>
+          <label>Crop profile<select id="species"><option value="lettuce">Red Romaine Lettuce</option><option value="radish">Cherry Belle Radish</option><option value="basil">Genovese Basil</option></select></label>
+          <div class="species-note" id="speciesNote">Fast cycle · Leaf biomass · Veggie-tested</div>
+          <label>Gravity environment<div class="segmented" id="gravity"><button data-value="0" class="active">0G<span>ORBITAL</span></button><button data-value="0.16">0.16G<span>MOON</span></button><button data-value="0.38">0.38G<span>MARS</span></button><button data-value="1">1G<span>EARTH</span></button></div></label>
+          <label>Growth medium<select id="medium"><option value="arcillite">Arcillite substrate</option><option value="coco">Coco coir matrix</option><option value="gel">Hydrogel matrix</option></select></label>
+          <div class="range-row"><label for="moisture">Moisture <output id="moistureValue">62%</output></label><input id="moisture" type="range" min="25" max="90" value="62" /></div>
+          <div class="range-row"><label for="nutrients">Nutrient density <output id="nutrientValue">0.84×</output></label><input id="nutrients" type="range" min="40" max="140" value="84" /></div>
+          <button id="runButton" class="run-button"><span>RUN GROWTH STUDY</span><b>↗</b></button>
+          <p class="model-note">Physics-based estimate · transparent parametric model</p>
+        </aside>
+
+        <section class="simulation-card panel">
+          <div class="simulation-head"><div><div class="panel-label"><span>02</span> ROOT ZONE OBSERVATION</div><h2 id="simTitle">Microgravity / Day 18</h2></div><div class="time-control"><button id="playButton" aria-label="Pause simulation">Ⅱ</button><input id="day" type="range" min="1" max="30" value="18" /><span id="dayValue">18 D</span></div></div>
+          <div class="canvas-wrap"><canvas id="rootCanvas" width="920" height="485"></canvas><div class="canvas-overlay left"><span class="legend-dot cyan"></span>ROOT ARCHITECTURE</div><div class="canvas-overlay right"><span class="legend-dot gold"></span>NUTRIENT DENSITY</div><div class="seed-label">SEED<br />ORIGIN</div></div>
+          <div class="simulation-foot"><span id="transportText"><i></i> Diffusion-dominant transport</span><span>FIELD RESOLUTION 64 × 36</span><span id="runStatus">READY FOR ITERATION</span></div>
+        </section>
+
+        <aside class="results-card panel">
+          <div class="panel-label"><span>03</span> VIABILITY READOUT</div>
+          <div class="score"><div class="score-ring"><strong id="score">73</strong><small>/100</small></div><div><p>Crop viability</p><span id="confidence">MODERATE CONFIDENCE</span></div></div>
+          <div class="metrics"><div><span>EST. FRESH BIOMASS</span><strong id="biomass">126 <small>g / plant</small></strong></div><div><span>ROOT SURFACE AREA</span><strong id="rootArea">38.4 <small>cm²</small></strong></div><div><span>NUTRIENT EXPOSURE</span><strong id="exposure">68<small>%</small></strong></div></div>
+          <div class="comparison"><div class="comparison-head"><span>EARTH CONTROL</span><span id="delta">−21% BIOMASS</span></div><div class="bar"><i id="earthBar"></i></div><p id="comparisonText">Earth-normal growth: 160 g / plant under identical inputs</p></div>
+          <button id="exportButton" class="export-button">EXPORT STUDY DATA <span>↓</span></button>
+        </aside>
+      </section>
+
+      <section class="insight-row"><div class="insight-number">01</div><p><b id="insightTitle">The root system spreads laterally.</b> Without a strong gravitational vector, hydrotropic signaling and substrate contact become the dominant directional cues.</p><div class="formula">∂C/∂t = D · ∇²C <span>FICK'S SECOND LAW</span></div></section>
+    </main>
+
+    <dialog id="permissionDialog"><form method="dialog" class="permission-modal"><button class="close" value="cancel" aria-label="Close">×</button><p class="eyebrow">LAB ACCESS CONTROL</p><h2>Simulation permissions</h2><p class="muted">Choose a local project role. Your selection is stored only in this browser and controls which actions this workspace exposes.</p><div class="roles" id="roles"><button data-role="viewer"><b>Viewer</b><span>Explore studies</span></button><button data-role="researcher" class="selected"><b>Researcher</b><span>Run & export studies</span></button><button data-role="admin"><b>Principal investigator</b><span>Full configuration access</span></button></div><div class="permission-list"><span>✓ Run simulations</span><span>✓ Export study data</span><span>✓ Adjust model inputs</span></div><button value="confirm" id="savePermission" class="run-button">SAVE ACCESS PROFILE <b>→</b></button></form></dialog>
+    <script src="app.js"></script>
+  </body>
+</html>

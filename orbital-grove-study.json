@@ -1,0 +1,29 @@
+{
+  "project": "Orbital Grove",
+  "generatedAt": "2026-08-21T05:23:11.678Z",
+  "role": "admin",
+  "gravity": 0,
+  "inputs": {
+    "species": "radish",
+    "medium": "arcillite",
+    "moisture": 42,
+    "nutrientDensity": 1.1,
+    "days": 1
+  },
+  "result": {
+    "crop": {
+      "base": 118,
+      "root": 41,
+      "note": "Compact cycle · Root crop · High germination"
+    },
+    "m": 42,
+    "n": 1.1,
+    "day": 1,
+    "biomass": 4,
+    "score": 48,
+    "root": "1.2",
+    "expo": 58,
+    "earth": 5
+  },
+  "method": "Physics-based parametric model using diffusion-dominant transport and biased random-walk root architecture."
+}

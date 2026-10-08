@@ -1,0 +1,5 @@
+study,experiment,crop,harvest_days_after_initiation,location,light_treatment,surviving_plants,total_fresh_edible_biomass_g,source_doi,source_note
+VEG-04,VEG-04A,Mizuna mustard (Brassica rapa var. japonica),35,ISS spaceflight,red-rich,5,293,10.1080/17429145.2023.2292220,"Published aggregate fresh edible biomass; single terminal harvest"
+VEG-04,VEG-04A,Mizuna mustard (Brassica rapa var. japonica),35,ISS spaceflight,blue-rich,3,97,10.1080/17429145.2023.2292220,"Published aggregate fresh edible biomass; single terminal harvest"
+VEG-04,VEG-04A,Mizuna mustard (Brassica rapa var. japonica),35,Ground control,red-rich,3,141,10.1080/17429145.2023.2292220,"Published aggregate fresh edible biomass; single terminal harvest"
+VEG-04,VEG-04A,Mizuna mustard (Brassica rapa var. japonica),35,Ground control,blue-rich,3,121,10.1080/17429145.2023.2292220,"Published aggregate fresh edible biomass; single terminal harvest"

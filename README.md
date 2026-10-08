@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Orbital Grove — Microgravity Simulator
 
 A self-contained interactive prototype for modelling seed growth in orbital and partial-gravity environments.
@@ -22,3 +23,7 @@ This is an educational, physics-inspired parametric simulator — not a validate
 ## Real NASA reference data
 
 See [data/README.md](data/README.md) for the acquired NASA OSDR metadata and a citable, four-observation ISS/ground fresh-biomass reference dataset from the VEG-04A mizuna experiment. The application is deliberately still labelled physics-inspired because those observations are not sufficient to train or validate its general yield estimate.
+=======
+# Orbital-Grove
+A web simulator to learn about the seed germination of ISS grade plants in varying gravity with help of the moisture and nutrient density ratios. It aslo uses Fick's Second Law and helps to find the crop viability with its biomass comparison to the Earth gravity/biomass index of the selected plant.
+>>>>>>> ca3d13f4e4b20f96ca0f85e31c556456031e4c92
